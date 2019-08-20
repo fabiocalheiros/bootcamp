@@ -1,6 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 modulo01/node_modules
+modulo02/node_modules
+modulo*/*
 
 # dependencies
 /node_modules
