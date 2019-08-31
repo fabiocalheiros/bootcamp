@@ -68,3 +68,6 @@ ex: import express from 'express';
 
 # date-fns
 Verificação de datas
+
+# nodemailer
+Envio de emails no node
