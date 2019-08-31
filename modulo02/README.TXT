@@ -71,3 +71,6 @@ Verificação de datas
 
 # nodemailer
 Envio de emails no node
+
+#bee-queue
+Controle de filas no node

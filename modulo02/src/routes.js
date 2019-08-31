@@ -10,6 +10,8 @@ import AppointmentController from './app/controllers/AppointmentController';
 import ScheduleController from './app/controllers/ScheduleController';
 import NotificationController from './app/controllers/NotificationController';
 
+import AvailbleController from './app/controllers/AvailbleController';
+
 import AuthMiddleware from './app/middlewares/auth';
 
 const routes = new Router();
@@ -23,6 +25,7 @@ routes.use(AuthMiddleware);
 routes.put('/users', UserController.update);
 
 routes.get('/providers', ProviderController.index);
+routes.get('/providers/:providerId/availble', AvailbleController.index);
 
 routes.post('/appointments', AppointmentController.store);
 routes.get('/appointments', AppointmentController.index);
