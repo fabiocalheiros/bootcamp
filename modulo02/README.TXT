@@ -74,3 +74,9 @@ Envio de emails no node
 
 #bee-queue
 Controle de filas no node
+
+#sentry
+Verificação de erros na aplicação
+
+#youch
+Trata as mensagens de erro para envio front-end
